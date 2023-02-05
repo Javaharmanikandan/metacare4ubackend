@@ -54,7 +54,7 @@ app.use('/images', express.static('images'));
 // END DEFAULT ROUTES
 
 app.get("/working", async (req, res) => {
-  res.send("YEs Im in")
+  res.send("sequalice working")
 });
 
 app.post("/pay", async (req, res) => {
